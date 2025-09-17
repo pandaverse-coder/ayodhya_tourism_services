@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/stylesheets/guides.css" class="css">
+  <link rel="stylesheet" href="/stylesheets/navbar.css" class="css">
+  <link rel="stylesheet" href="/stylesheets/footer.css" class="css">
+  <link rel="icon" type="image/svg+xml" href="/assets/image/favicon.svg">
+  <title>Ayodhya tourism services - Make your tour memorable with our professional guides </title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo"><img src="/assets/image/logo.svg" alt="logo"></div>
+    <div class="menu-toggle" id="mobile-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tours.html">Tours</a></li>
+      <li><a href="shuttles.html">Shuttles</a></li>
+      <li><a href="hotels.html">Hotels</a></li>
+      <li><a href="guides.html" class="active">Guides</a></li>
+      <li><a href="dining.html">Dining</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="about-us.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="login-signup-forgot-password.html" class="btn-login">Log-in</a></li>
+    </ul>
+  </nav>
+
+  <section class="page-hero">
+    <div class="hero-content">
+      <h1>Expert Local Guides</h1>
+      <p>Connect with knowledgeable guides who will show you the hidden gems of each destination</p>
+    </div>
+  </section>
+
+  <section class="guides-intro">
+    <div class="container">
+      <div class="intro-content">
+        <div class="intro-text">
+          <h2>Discover Destinations Through Local Eyes</h2>
+          <p>Our certified guides are passionate storytellers, historians, and adventurers who will transform your travel experience. They know the secret spots, the best times to visit attractions, and the stories that bring each location to life.</p>
+          <div class="intro-stats">
+            <div class="stat">
+              <span class="stat-number">150+</span>
+              <span class="stat-label">Certified Guides</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">98%</span>
+              <span class="stat-label">Satisfaction Rate</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">12+</span>
+              <span class="stat-label">Languages</span>
+            </div>
+          </div>
+        </div>
+        <div class="intro-image">
+          <img src="/assets/image/guides-intro.jpg" alt="Local guide showing tourists around">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="guide-filters">
+    <div class="container">
+      <div class="filters-container">
+        <h2>Find Your Perfect Guide</h2>
+        <form id="guideSearchForm" class="guide-search-form">
+          <div class="search-row">
+            <div class="input-group">
+              <label for="guideDestination"><i class="fas fa-map-marker-alt"></i> Destination</label>
+              <select id="guideDestination">
+                <option value="">Any Destination</option>
+                <option value="ayodhya">Ayodhya, India</option>
+                <option value="varanasi">Varanasi, India</option>
+                <option value="delhi">Delhi, India</option>
+                <option value="jaipur">Jaipur, India</option>
+                <option value="agra">Agra, India</option>
+              </select>
+            </div>
+            
+            <div class="input-group">
+              <label for="guideLanguage"><i class="fas fa-language"></i> Language</label>
+              <select id="guideLanguage">
+                <option value="">Any Language</option>
+                <option value="hindi">Hindi</option>
+                <option value="english">English</option>
+                <option value="tamil">Tamil</option>
+                <option value="bengali">Bengali</option>
+                <option value="telugu">Telugu</option>
+                <option value="marathi">Marathi</option>
+              </select>
+            </div>
+            
+            <div class="input-group">
+              <label for="guideSpecialty"><i class="fas fa-star"></i> Specialty</label>
+              <select id="guideSpecialty">
+                <option value="">Any Specialty</option>
+                <option value="history">Historical Tours</option>
+                <option value="religious">Religious & Spiritual</option>
+                <option value="food">Food & Culinary</option>
+                <option value="culture">Cultural Experiences</option>
+                <option value="photography">Photography Tours</option>
+                <option value="family">Family Friendly</option>
+              </select>
+            </div>
+            
+            <button type="submit" class="search-btn">
+              <i class="fas fa-search"></i> Find Guides
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="guides-grid">
+    <div class="container">
+      <h2>Featured Local Guides</h2>
+      <div class="guides-container">
+        <div class="guide-card">
+          <div class="guide-image">
+            <img src="/assets/image/guide-1.jpg" alt="Guide Rajesh Kumar">
+            <div class="guide-badge">Top Rated</div>
+            <button class="favorite-btn"><i class="far fa-heart"></i></button>
+          </div>
+          <div class="guide-content">
+            <h3>Rajesh Kumar</h3>
+            <p class="guide-location"><i class="fas fa-map-marker-alt"></i> Ayodhya, India</p>
+            <div class="guide-specialties">
+              <span class="specialty">Historical Tours</span>
+              <span class="specialty">Religious Sites</span>
+            </div>
+            <div class="guide-languages">
+              <span><i class="fas fa-language"></i> Hindi, English, Awadhi</span>
+            </div>
+            <div class="guide-rating">
+              <div class="stars">★★★★★</div>
+              <span class="rating-score">4.9</span>
+              <span class="review-count">(128 reviews)</span>
+            </div>
+            <p class="guide-description">Passionate historian with 10+ years of experience showing visitors the sacred sites and hidden gems of Ayodhya.</p>
+            <div class="guide-footer">
+              <div class="guide-price">
+                <span class="price">₹1500</span>
+                <span class="price-unit">/hour</span>
+              </div>
+              <button class="view-profile-btn" data-guide-id="1">View Profile</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="guide-card">
+          <div class="guide-image">
+            <img src="/assets/image/guide-2.jpg" alt="Guide Priya Singh">
+            <div class="guide-badge popular">Popular</div>
+            <button class="favorite-btn"><i class="far fa-heart"></i></button>
+          </div>
+          <div class="guide-content">
+            <h3>Priya Singh</h3>
+            <p class="guide-location"><i class="fas fa-map-marker-alt"></i> Varanasi, India</p>
+            <div class="guide-specialties">
+              <span class="specialty">Spiritual Tours</span>
+              <span class="specialty">Ganga Aarti</span>
+            </div>
+            <div class="guide-languages">
+              <span><i class="fas fa-language"></i> Hindi, English, Bengali</span>
+            </div>
+            <div class="guide-rating">
+              <div class="stars">★★★★★</div>
+              <span class="rating-score">4.95</span>
+              <span class="review-count">(204 reviews)</span>
+            </div>
+            <p class="guide-description">Varanasi native with deep knowledge of spiritual practices, rituals, and hidden temple locations along the Ganges.</p>
+            <div class="guide-footer">
+              <div class="guide-price">
+                <span class="price">₹1800</span>
+                <span class="price-unit">/hour</span>
+              </div>
+              <button class="view-profile-btn" data-guide-id="2">View Profile</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="guide-card">
+          <div class="guide-image">
+            <img src="/assets/image/guide-3.jpg" alt="Guide Amit Sharma">
+            <button class="favorite-btn"><i class="far fa-heart"></i></button>
+          </div>
+          <div class="guide-content">
+            <h3>Amit Sharma</h3>
+            <p class="guide-location"><i class="fas fa-map-marker-alt"></i> Delhi, India</p>
+            <div class="guide-specialties">
+              <span class="specialty">Cultural Tours</span>
+              <span class="specialty">Food Experiences</span>
+            </div>
+            <div class="guide-languages">
+              <span><i class="fas fa-language"></i> Hindi, English, Punjabi</span>
+            </div>
+            <div class="guide-rating">
+              <div class="stars">★★★★☆</div>
+              <span class="rating-score">4.7</span>
+              <span class="review-count">(89 reviews)</span>
+            </div>
+            <p class="guide-description">Food enthusiast and culture expert who brings Delhi's diverse heritage to life through its cuisine and historical sites.</p>
+            <div class="guide-footer">
+              <div class="guide-price">
+                <span class="price">₹1200</span>
+                <span class="price-unit">/hour</span>
+              </div>
+              <button class="view-profile-btn" data-guide-id="3">View Profile</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="guide-card">
+          <div class="guide-image">
+            <img src="/assets/image/guide-4.jpg" alt="Guide Sunita Patel">
+            <div class="guide-badge new">New</div>
+            <button class="favorite-btn"><i class="far fa-heart"></i></button>
+          </div>
+          <div class="guide-content">
+            <h3>Sunita Patel</h3>
+            <p class="guide-location"><i class="fas fa-map-marker-alt"></i> Jaipur, India</p>
+            <div class="guide-specialties">
+              <span class="specialty">Architecture</span>
+              <span class="specialty">Photography Tours</span>
+            </div>
+            <div class="guide-languages">
+              <span><i class="fas fa-language"></i> Hindi, English, Rajasthani</span>
+            </div>
+            <div class="guide-rating">
+              <div class="stars">★★★★★</div>
+              <span class="rating-score">4.85</span>
+              <span class="review-count">(67 reviews)</span>
+            </div>
+            <p class="guide-description">Architectural expert and photographer who knows every intricate detail of Jaipur's palaces and forts.</p>
+            <div class="guide-footer">
+              <div class="guide-price">
+                <span class="price">₹1600</span>
+                <span class="price-unit">/hour</span>
+              </div>
+              <button class="view-profile-btn" data-guide-id="4">View Profile</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="load-more">
+        <button class="load-more-btn">Load More Guides</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="how-it-works">
+    <div class="container">
+      <h2>How It Works</h2>
+      <div class="steps-container">
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-icon">
+            <i class="fas fa-search"></i>
+          </div>
+          <h3>Find Your Guide</h3>
+          <p>Browse profiles, read reviews, and find the perfect local expert for your interests.</p>
+        </div>
+        
+        <div class="step">
+          <div class="step-number">2</div>
+          <div class="step-icon">
+            <i class="fas fa-calendar-check"></i>
+          </div>
+          <h3>Book & Customize</h3>
+          <p>Message the guide to customize your experience and confirm availability.</p>
+        </div>
+        
+        <div class="step">
+          <div class="step-number">3</div>
+          <div class="step-icon">
+            <i class="fas fa-map-marked-alt"></i>
+          </div>
+          <h3>Explore Together</h3>
+          <p>Meet your guide and discover hidden gems you won't find in guidebooks.</p>
+        </div>
+        
+        <div class="step">
+          <div class="step-number">4</div>
+          <div class="step-icon">
+            <i class="fas fa-star"></i>
+          </div>
+          <h3>Share Your Experience</h3>
+          <p>Leave a review to help other travelers find their perfect guide.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <div class="container">
+      <h2>What Travelers Say</h2>
+      <div class="testimonials-container">
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <div class="stars">★★★★★</div>
+            <p>"Rajesh showed us a side of Ayodhya we never would have found on our own. His knowledge of Ram Janmabhoomi and the best local temples made our trip unforgettable."</p>
+          </div>
+          <div class="testimonial-author">
+            <img src="/assets/image/traveler-1.jpg" alt="Vikram Patel">
+            <div>
+              <h4>Vikram Patel</h4>
+              <p>From Mumbai, India</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <div class="stars">★★★★★</div>
+            <p>"Priya's Ganga Aarti experience was the highlight of our Varanasi trip. Her spiritual understanding and patience made us feel truly welcomed."</p>
+          </div>
+          <div class="testimonial-author">
+            <img src="/assets/image/traveler-2.jpg" alt="Anjali Sharma">
+            <div>
+              <h4>Anjali Sharma</h4>
+              <p>From Bangalore, India</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <div class="stars">★★★★☆</div>
+            <p>"Amit's food tour of Old Delhi was both educational and delicious. He answered all our questions and shared stories that aren't in the guidebooks."</p>
+          </div>
+          <div class="testimonial-author">
+            <img src="/assets/image/traveler-3.jpg" alt="Rahul Kapoor">
+            <div>
+              <h4>Rahul Kapoor</h4>
+              <p>From Kolkata, India</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Ready to Explore with a Local Expert?</h2>
+        <p>Join thousands of travelers who have discovered the difference a great guide makes.</p>
+        <button class="cta-btn">Find Your Guide Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Component -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <img src="assets/image/logo.svg" alt="Ayodhya Tourism" class="footer-logo">
+          <p>Exploring the sacred city of Ayodhya, one divine journey at a time. Your trusted platform for ayodhya
+            tours since 2024.</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="shuttles.html">Shuttles</a></li>
+            <li><a href="hotels.html">Hotels</a></li>
+            <li><a href="guides.html">Guides</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Info</h3>
+          <div class="contact-info">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>Near Devkali mandir, Ayodhya, Uttar pradesh - 224123</div>
+          </div>
+          <div class="contact-info">
+            <i class="fas fa-phone"></i>
+            <div>+91 88741 42753</div>
+          </div>
+          <div class="contact-info">
+            <i class="fas fa-envelope"></i>
+            <div>info@ayodhyatourism.services</div>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h3>Newsletter</h3>
+          <p>Subscribe to our newsletter for updates on new tours and special offers.</p>
+          <form class="newsletter-form">
+            <input type="email" class="newsletter-input" placeholder="Your Email Address" required>
+            <button type="submit" class="newsletter-btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024 Ayodhya Tourism Services. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Guide Profile Modal -->
+  <div class="modal-overlay" id="guideModal">
+    <div class="modal-content guide-modal">
+      <button class="modal-close"><i class="fas fa-times"></i></button>
+      <div class="modal-body" id="guideModalContent">
+        <!-- Content will be populated by JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts/guides.js"></script>
+  <script src="scripts/nav_bar_functionality.js"></script>
+</body>
+
+</html>
